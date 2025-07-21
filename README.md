@@ -1,21 +1,20 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+    <a href="https://youtu.be/kt0FrkQgw8w" target="_blank">
+      <img src="https://github.com/user-attachments/assets/2afc2dc3-f840-4d98-9378-f34acd7df173" alt="Project Banner">
     </a>
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A Modern Next.js Portfolio</h3>
+  <h3 align="center">A 3D Dev Portfolio</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!!
     </div>
 </div>
 
@@ -25,9 +24,10 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Code to Copy](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+5. 🕸️ [Snippets (Code to Copy)](#snippets)
+6. 🔗 [Links](#links)
+7. 📦 [Assets](#assets)
+8. 🚀 [More](#more)
 
 ## 🚨 Tutorial
 
@@ -35,11 +35,11 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
-<a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+<a href="https://youtu.be/kt0FrkQgw8w" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
+Built with React.js for handling the user interface, Three.js for rendering 3D elements, and styled with TailwindCSS, the 3D Minimalistic portfolio is a website project. The primary goal is to demonstrate the developer's skills in a unique manner that creates a lasting impact.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
 
@@ -47,26 +47,32 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
+- Node.js
+- React.js
 - Three.js
-- Framer Motion
+- React Three Fiber
+- React Three Drei
+- Email JS
+- Vite
 - Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Hero**: Captivating introduction featuring a spotlight effect and dynamic background.
+👉 **Immersive Hero**: An eye-catching 3D hacker room that responds to mouse movements, surrounded by animated mini-models.
 
-👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
+👉 **Interactive About Me**: A sleek bento grid layout featuring personal info, a 3D globe pinpointing location, tech stack icons, and a one-click email copy option.
 
-👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+👉 **Dynamic Project Showcase**: Browse through projects while watching live demos inside a 3D computer model, seamlessly switching between different projects.
 
-👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
+👉 **Engaging Experience Timeline**: Hover over career milestones to trigger interactive 3D animations that bring your professional journey to life.
 
-👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
+👉 **Client Testimonials**: A dedicated section highlighting satisfied clients and their feedback.
 
-👉 **Canvas Effect**: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
+👉 **Easy Contact Form**: A user-friendly email form for visitors to reach out directly from your portfolio.
 
-👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
+👉 **Clean Footer**: A minimalist design featuring social media links for easy networking.
+
+👉 **Fully Responsive**: Optimized layout ensuring a smooth experience across all devices, from desktop to mobile.
 
 and many more, including code architecture and reusability 
 
@@ -85,8 +91,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/portfolio.git
-cd portfolio
+git clone https://github.com/JavaScript-Mastery-Pro/threejscc-portfolio.git
+cd threejscc-portfolio
 ```
 
 **Installation**
@@ -97,569 +103,774 @@ Install the project dependencies using npm:
 npm install
 ```
 
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+REACT_APP_EMAILJS_USERID=your_emailjs_user_id
+REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
+REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
+```
+
+Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
+
 **Running the Project**
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
 ## <a name="snippets">🕸️ Snippets</a>
 
 <details>
-<summary><code>data/index.ts</code></summary>
+<summary><code>tailwind.config.js</code></summary>
 
-```typescript
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
-];
-
-export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
-];
-
-export const projects = [
-  {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
-
-export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
-];
-```
-
-</details>
-
-<details>
-<summary><code>tailwind.config.ts</code></summary>
-
-```ts
-import type { Config } from "tailwindcss";
-
-const svgToDataUri = require("mini-svg-data-uri");
-
-const colors = require("tailwindcss/colors");
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
-
-const config = {
-  darkMode: ["class"],
-  content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
-    "./data/**/*.{ts,tsx}",
-  ],
-  prefix: "",
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
     extend: {
+      fontFamily: {
+        generalsans: ['General Sans', 'sans-serif'],
+      },
       colors: {
         black: {
-          DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          DEFAULT: '#000',
+          100: '#010103',
+          200: '#0E0E10',
+          300: '#1C1C21',
+          500: '#3A3A49',
+          600: '#1A1A1A',
         },
         white: {
-          DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
-        },
-        blue: {
-          "100": "#E4ECFF",
-        },
-        purple: "#CBACF9",
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: '#FFFFFF',
+          800: '#E4E4E6',
+          700: '#D6D9E9',
+          600: '#AFB0B6',
+          500: '#62646C',
         },
       },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
-      keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
-        spotlight: {
-          "0%": {
-            opacity: "0",
-            transform: "translate(-72%, -62%) scale(0.5)",
-          },
-          "100%": {
-            opacity: "1",
-            transform: "translate(-50%,-40%) scale(1)",
-          },
-        },
-        shimmer: {
-          from: {
-            backgroundPosition: "0 0",
-          },
-          to: {
-            backgroundPosition: "-200% 0",
-          },
-        },
-        moveHorizontal: {
-          "0%": {
-            transform: "translateX(-50%) translateY(-10%)",
-          },
-          "50%": {
-            transform: "translateX(50%) translateY(10%)",
-          },
-          "100%": {
-            transform: "translateX(-50%) translateY(-10%)",
-          },
-        },
-        moveInCircle: {
-          "0%": {
-            transform: "rotate(0deg)",
-          },
-          "50%": {
-            transform: "rotate(180deg)",
-          },
-          "100%": {
-            transform: "rotate(360deg)",
-          },
-        },
-        moveVertical: {
-          "0%": {
-            transform: "translateY(-50%)",
-          },
-          "50%": {
-            transform: "translateY(50%)",
-          },
-          "100%": {
-            transform: "translateY(-50%)",
-          },
-        },
-        scroll: {
-          to: {
-            transform: "translate(calc(-50% - 0.5rem))",
-          },
-        },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
-        spotlight: "spotlight 2s ease .75s 1 forwards",
-        shimmer: "shimmer 2s linear infinite",
-        first: "moveVertical 30s ease infinite",
-        second: "moveInCircle 20s reverse infinite",
-        third: "moveInCircle 40s linear infinite",
-        fourth: "moveHorizontal 40s ease infinite",
-        fifth: "moveInCircle 20s ease infinite",
-        scroll:
-          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      backgroundImage: {
+        terminal: "url('/assets/terminal.png')",
       },
     },
   },
-  plugins: [
-    require("tailwindcss-animate"),
-    addVariablesForColors,
-    function ({ matchUtilities, theme }: any) {
-      matchUtilities(
-        {
-          "bg-grid": (value: any) => ({
-            backgroundImage: `url("${svgToDataUri(
-              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100" height="100" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
-            )}")`,
-          }),
-          "bg-grid-small": (value: any) => ({
-            backgroundImage: `url("${svgToDataUri(
-              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="8" height="8" fill="none" stroke="${value}"><path d="M0 .5H31.5V32"/></svg>`
-            )}")`,
-          }),
-          "bg-dot": (value: any) => ({
-            backgroundImage: `url("${svgToDataUri(
-              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="none"><circle fill="${value}" id="pattern-circle" cx="10" cy="10" r="1.6257413380501518"></circle></svg>`
-            )}")`,
-          }),
-        },
-        { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
-      );
-    },
-  ],
-} satisfies Config;
-
-function addVariablesForColors({ addBase, theme }: any) {
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
-  );
-
-  addBase({
-    ":root": newVars,
-  });
-}
-
-export default config;
+  plugins: [],
+};
 ```
 
 </details>
 
 <details>
-<summary><code>globals.css</code></summary>
+<summary><code>index.css</code></summary>
 
 ```css
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
-
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
-@layer base {
-  * {
-    @apply border-border !scroll-smooth;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-  button {
-    @apply active:outline-none;
-  }
+body {
+  background: #010103;
+  font-family: 'General Sans', sans-serif;
 }
 
 @layer utilities {
-  .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
+  .c-space {
+    @apply sm:px-10 px-5;
   }
 
-  .black-gradient {
-    background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  .head-text {
+    @apply sm:text-4xl text-3xl font-semibold text-gray_gradient;
+  }
+
+  .nav-ul {
+    @apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20;
+  }
+
+  .nav-li {
+    @apply text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+  }
+
+  .nav-li_a {
+    @apply text-lg md:text-base hover:text-white transition-colors;
+  }
+
+  .nav-sidebar {
+    @apply absolute left-0 right-0 bg-black-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+  }
+
+  .text-gray_gradient {
+    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+  }
+
+  /* button component */
+  .btn {
+    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto;
+  }
+
+  .btn-ping {
+    @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75;
+  }
+
+  .btn-ping_dot {
+    @apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
+  }
+
+  /* hero section */
+  .hero_tag {
+    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+  }
+
+  /* about section */
+  .grid-container {
+    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+  }
+
+  .grid-headtext {
+    @apply text-xl font-semibold mb-2 text-white font-generalsans;
+  }
+
+  .grid-subtext {
+    @apply text-[#afb0b6] text-base font-generalsans;
+  }
+
+  .copy-container {
+    @apply cursor-pointer flex justify-center items-center gap-2;
+  }
+
+  /* projects section  */
+  .arrow-btn {
+    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
+  }
+
+  .tech-logo {
+    @apply w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
+  }
+
+  /* clients section */
+  .client-container {
+    @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-12;
+  }
+
+  .client-review {
+    @apply rounded-lg md:p-10 p-5 col-span-1 bg-black-300 bg-opacity-50;
+  }
+
+  .client-content {
+    @apply flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5 mt-7;
+  }
+
+  /*  work experience section */
+  .work-container {
+    @apply grid lg:grid-cols-3 grid-cols-1 gap-5 mt-12;
+  }
+
+  .work-canvas {
+    @apply col-span-1 rounded-lg bg-black-200 border border-black-300;
+  }
+
+  .work-content {
+    @apply col-span-2 rounded-lg bg-black-200 border border-black-300;
+  }
+
+  .work-content_container {
+    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black-300 rounded-lg sm:px-5 px-2.5;
+  }
+
+  .work-content_logo {
+    @apply rounded-3xl w-16 h-16 p-2 bg-black-600;
+  }
+
+  .work-content_bar {
+    @apply flex-1 w-0.5 mt-4 h-full bg-black-300 group-hover:bg-black-500 group-last:hidden;
+  }
+
+  /* contact section */
+  .contact-container {
+    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
+  }
+
+  .field-label {
+    @apply text-lg text-white-600;
+  }
+
+  .field-input {
+    @apply w-full bg-black-300 px-5 py-2 min-h-14 rounded-lg placeholder:text-white-500 text-lg text-white-800 shadow-black-200 shadow-2xl focus:outline-none;
+  }
+
+  .field-btn {
+    @apply bg-black-500 px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3;
+  }
+
+  .field-btn_arrow {
+    @apply w-2.5 h-2.5 object-contain invert brightness-0;
+  }
+
+  /*  footer */
+  .social-icon {
+    @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
+  }
+}
+
+.waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+.arrow-gradient {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1) 10%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(14deg);
+  }
+  30% {
+    transform: rotate(-8deg);
+  }
+  40% {
+    transform: rotate(14deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 ```
 
 </details>
 
-
 <details>
-<summary><code>Linear Gradient</code></summary>
+<summary><code>constants/index.js</code></summary>
 
 ```js
-style={{
-        //   add these two
-        //   you can generate the color from here https://cssgradient.io/
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
+export const navLinks = [
+  {
+    id: 1,
+    name: 'Home',
+    href: '#home',
+  },
+  {
+    id: 2,
+    name: 'About',
+    href: '#about',
+  },
+  {
+    id: 3,
+    name: 'Work',
+    href: '#work',
+  },
+  {
+    id: 4,
+    name: 'Contact',
+    href: '#contact',
+  },
+];
+
+export const clientReviews = [
+  {
+    id: 1,
+    name: 'Emily Johnson',
+    position: 'Marketing Director at GreenLeaf',
+    img: 'assets/review1.png',
+    review:
+      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+  },
+  {
+    id: 2,
+    name: 'Mark Rogers',
+    position: 'Founder of TechGear Shop',
+    img: 'assets/review2.png',
+    review:
+      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+  },
+  {
+    id: 3,
+    name: 'John Dohsas',
+    position: 'Project Manager at UrbanTech ',
+    img: 'assets/review3.png',
+    review:
+      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+  },
+  {
+    id: 4,
+    name: 'Ether Smith',
+    position: 'CEO of BrightStar Enterprises',
+    img: 'assets/review4.png',
+    review:
+      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+  },
+];
+
+export const myProjects = [
+  {
+    title: 'Podcastr - AI Podcast Platform',
+    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    subdesc:
+      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
+  {
+    title: 'LiveDoc - Real-Time Google Docs Clone',
+    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    subdesc:
+      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/project-logo2.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
+  {
+    title: 'CarePulse - Health Management System',
+    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    subdesc:
+      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
+  {
+    title: 'Horizon - Online Banking Platform',
+    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    subdesc:
+      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    texture: '/textures/project/project4.mp4',
+    logo: '/assets/project-logo4.png',
+    logoStyle: {
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
+  {
+    title: 'Imaginify - AI Photo Manipulation App',
+    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    subdesc:
+      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/project-logo5.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
+];
+
+export const calculateSizes = (isSmall, isMobile, isTablet) => {
+  return {
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+    cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
+    reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
+    ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
+    targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+  };
+};
+
+export const workExperiences = [
+  {
+    id: 1,
+    name: 'Framer',
+    pos: 'Lead Web Developer',
+    duration: '2022 - Present',
+    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    icon: '/assets/framer.svg',
+    animation: 'victory',
+  },
+  {
+    id: 2,
+    name: 'Figma',
+    pos: 'Web Developer',
+    duration: '2020 - 2022',
+    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    icon: '/assets/figma.svg',
+    animation: 'clapping',
+  },
+  {
+    id: 3,
+    name: 'Notion',
+    pos: 'Junior Web Developer',
+    duration: '2019 - 2020',
+    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+    icon: '/assets/notion.svg',
+    animation: 'salute',
+  },
+];
 ```
+
 </details>
 
+<details>
+<summary><code>components/Cube.js</code></summary>
 
-## <a name="links">🔗 Assets</a>
+```js
+/*
+    Auto-generated by: https://github.com/pmndrs/gltfjsx
+*/
 
-Assets used in the project can be found [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { useRef, useState } from 'react';
+import { Float, useGLTF, useTexture } from '@react-three/drei';
+
+const Cube = ({ ...props }) => {
+  const { nodes } = useGLTF('models/cube.glb');
+
+  const texture = useTexture('textures/cube.png');
+
+  const cubeRef = useRef();
+  const [hovered, setHovered] = useState(false);
+
+  useGSAP(() => {
+    gsap
+      .timeline({
+        repeat: -1,
+        repeatDelay: 0.5,
+      })
+      .to(cubeRef.current.rotation, {
+        y: hovered ? '+=2' : `+=${Math.PI * 2}`,
+        x: hovered ? '+=2' : `-=${Math.PI * 2}`,
+        duration: 2.5,
+        stagger: {
+          each: 0.15,
+        },
+      });
+  });
+
+  return (
+    <Float floatIntensity={2}>
+      <group position={[9, -4, 0]} rotation={[2.6, 0.8, -1.8]} scale={0.74} dispose={null} {...props}>
+        <mesh
+          ref={cubeRef}
+          castShadow
+          receiveShadow
+          geometry={nodes.Cube.geometry}
+          material={nodes.Cube.material}
+          onPointerEnter={() => setHovered(true)}>
+          <meshMatcapMaterial matcap={texture} toneMapped={false} />
+        </mesh>
+      </group>
+    </Float>
+  );
+};
+
+useGLTF.preload('models/cube.glb');
+
+export default Cube;
+```
+
+</details>
+
+<details>
+<summary><code>components/Ring.js</code></summary>
+
+```js
+import { useGSAP } from '@gsap/react';
+import { Center, useTexture } from '@react-three/drei';
+import gsap from 'gsap';
+import { useCallback, useRef } from 'react';
+
+const Rings = ({ position }) => {
+  const refList = useRef([]);
+  const getRef = useCallback((mesh) => {
+    if (mesh && !refList.current.includes(mesh)) {
+      refList.current.push(mesh);
+    }
+  }, []);
+
+  const texture = useTexture('textures/rings.png');
+
+  useGSAP(
+    () => {
+      if (refList.current.length === 0) return;
+
+      refList.current.forEach((r) => {
+        r.position.set(position[0], position[1], position[2]);
+      });
+
+      gsap
+        .timeline({
+          repeat: -1,
+          repeatDelay: 0.5,
+        })
+        .to(
+          refList.current.map((r) => r.rotation),
+          {
+            y: `+=${Math.PI * 2}`,
+            x: `-=${Math.PI * 2}`,
+            duration: 2.5,
+            stagger: {
+              each: 0.15,
+            },
+          },
+        );
+    },
+    {
+      dependencies: position,
+    },
+  );
+
+  return (
+    <Center>
+      <group scale={0.5}>
+        {Array.from({ length: 4 }, (_, index) => (
+          <mesh key={index} ref={getRef}>
+            <torusGeometry args={[(index + 1) * 0.5, 0.1]}></torusGeometry>
+            <meshMatcapMaterial matcap={texture} toneMapped={false} />
+          </mesh>
+        ))}
+      </group>
+    </Center>
+  );
+};
+
+export default Rings;
+```
+
+</details>
+
+<details>
+<summary>About Earth Maps</summary>
+
+```js
+globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+```
+
+</details>
+
+<details>
+<summary><code>components/HackerRoom.jsx</code></summary>
+
+```jsx
+/*
+Auto-generated by: https://github.com/pmndrs/gltfjsx
+Command: npx gltfjsx@6.5.0 hacker-room-new.glb -T 
+Files: hacker-room-new.glb [34.62MB] > /Users/hsuwinlat/Desktop/jsm pj/threejscc-portfolio/public/models/hacker-room-new-transformed.glb [2.56MB] (93%)
+*/
+
+import { useGLTF, useTexture } from '@react-three/drei';
+
+export function HackerRoom(props) {
+  const { nodes, materials } = useGLTF('/models/hacker-room.glb');
+
+  const monitortxt = useTexture('textures/desk/monitor.png');
+  const screenTxt = useTexture('textures/desk/screen.png');
+
+  return (
+    <group {...props} dispose={null}>
+      <mesh geometry={nodes.screen_screens_0.geometry} material={materials.screens}>
+        <meshMatcapMaterial map={screenTxt} />
+      </mesh>
+      <mesh geometry={nodes.screen_glass_glass_0.geometry} material={materials.glass} />
+      <mesh geometry={nodes.table_table_mat_0_1.geometry} material={materials.table_mat} />
+      <mesh geometry={nodes.table_table_mat_0_2.geometry} material={materials.computer_mat}>
+        <meshMatcapMaterial map={monitortxt} />
+      </mesh>
+      <mesh geometry={nodes.table_table_mat_0_3.geometry} material={materials.server_mat} />
+      <mesh geometry={nodes.table_table_mat_0_4.geometry} material={materials.vhsPlayer_mat} />
+      <mesh geometry={nodes.table_table_mat_0_5.geometry} material={materials.stand_mat} />
+      <mesh geometry={nodes.table_table_mat_0_6.geometry} material={materials.mat_mat} />
+      <mesh geometry={nodes.table_table_mat_0_7.geometry} material={materials.arm_mat} />
+      <mesh geometry={nodes.table_table_mat_0_8.geometry} material={materials.tv_mat}>
+        <meshMatcapMaterial map={monitortxt} />
+      </mesh>
+      <mesh geometry={nodes.table_table_mat_0_9.geometry} material={materials.cables_mat} />
+      <mesh geometry={nodes.table_table_mat_0_10.geometry} material={materials.props_mat} />
+      <mesh geometry={nodes.table_table_mat_0_11.geometry} material={materials.ground_mat} />
+      <mesh geometry={nodes.table_table_mat_0_12.geometry} material={materials.key_mat} />
+    </group>
+  );
+}
+
+useGLTF.preload('/models/hacker-room.glb');
+```
+
+</details>
+
+## <a name="links">🔗 Links</a>
+
+Here is the list of all the resources used in the project video:
+
+- [Hacker Room](https://sketchfab.com/3d-models/hacker-room-stylized-a0cfe6edf2dd494c8a95addf6bb13a10)
+- [Computer](https://sketchfab.com/3d-models/3d-computer-sketchfab-weekly-11-mar23-d9931a9aba7c4ea1bc12b2a59dcef16e)
+- [Target Model](https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf)
+- [React Logo](https://sketchfab.com/3d-models/react-logo-76174ceeba96487f9863f974636f641e)
+- [gltfjsx](https://gltf.pmnd.rs/)
+- [ReadyPlayerMe](https://readyplayer.me/)
+- [Mixamo](https://www.mixamo.com/)
+- [FBX Animations ZIP](https://drive.google.com/file/d/1yQhrRvEQFEwxbjG2qelv_T-gAatXJ3N1/view?usp=sharing)
+
+
+## <a name="assets">🔗 Assets</a>
+
+Models and Assets used in the project can be found [here](https://drive.google.com/file/d/1UiJyotDmF2_tBC-GeLpRZuFY_gx5e7iX/view?usp=sharing)
 
 ## <a name="more">🚀 More</a>
 **Advance your skills with Next.js Pro Course**
