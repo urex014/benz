@@ -5,9 +5,18 @@ import Button from '../components/Button.jsx';
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
-
+  function downloadResume( filename="resume.pdf"){
+        const url = 'https://1drv.ms/b/c/bf0a134d06099cf1/Eemokjmih6lIn11yF6cIsAwBYKC5Imz7SJpscduVDie-8w?e=Cwu7P7'
+        const link = document.createElement("a");
+        link.href=url;
+        link.setAttribute("download", filename);
+        link.setAttribute("target", "_blank");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' ben@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -27,6 +36,7 @@ const About = () => {
               <p className="grid-subtext">
                 A frontend developer and UI/UX enthusiast, I’m a student on a mission to craft interfaces that not only look great but feel intuitive. I bridge the gap between code and design to bring ideas to life on the web.
               </p>
+              <button className="field-btn mt-6" onClick={downloadResume}>Download my resume</button>
             </div>
           </div>
         </div>
@@ -41,6 +51,7 @@ const About = () => {
                 I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications
               </p>
+              <button className="w-full mt-10" onClick={downloadResume}>download my resume here </button>
             </div>
           </div>
         </div> */}
