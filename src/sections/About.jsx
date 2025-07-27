@@ -16,7 +16,7 @@ const About = () => {
         document.body.removeChild(link);
     }
   const handleCopy = () => {
-    navigator.clipboard.writeText(' ben@gmail.com');
+    navigator.clipboard.writeText('chukwubenedicta533@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
